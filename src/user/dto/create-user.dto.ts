@@ -1,0 +1,10 @@
+export class CreateUserDto {
+  name: string;
+  email: string;
+  phone: string;
+  password: string;
+  username: string;
+  gender: "male" | "female";
+  bio: string;
+  age: number;
+}
